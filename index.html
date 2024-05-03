@@ -1,0 +1,284 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Syed Mohsin's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Syed Mohsin's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Syed Mohsin's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicons.png"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Mohit Aggarwal's Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Hi, I'm Mohit Aggarwal</span>
+            <span>Grad Student</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+            I am currently pursuing a Master's degree in Computer Science at the Georgia Institute of Technology, where I also earned my Bachelor's degree with a specialization in Machine Learning. My academic and professional journey is anchored in Software Engineering with a robust focus on leveraging Machine Learning for practical applications. My expertise spans Deep Learning, Natural Language Processing (NLP), and Computer Vision.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#work" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">Skills</h2>
+          <div class="skills-imgs">
+                <img src="assets/images/skills/react.webp" alt="React" class="skills-img" loading="lazy" title="React">
+                <img src="assets/images/skills/svelte.webp" alt="Svelte" class="skills-img" loading="lazy" title="Svelte">
+                 <img src="assets/images/skills/typescript.webp" alt="Typescript" class="skills-img" loading="lazy" title="Typescript">
+                 <img src="assets/images/skills/a11y.webp" alt="Accessibility" class="skills-img" loading="lazy" title="Web Accessibility">
+                 <img src="assets/images/skills/shell.webp" alt="Shell" class="skills-img" loading="lazy" title="Shell">
+                 <img src="assets/images/skills/next-js.webp" alt="NextJS" class="skills-img" loading="lazy" title="NextJS">
+                 <img src="assets/images/skills/graphql.webp" alt="Graph Ql" class="skills-img" loading="lazy" title="Graph QL">
+                 <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+                 <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+                 <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Projects</h2>
+          <div class="work-boxes">
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">FitForm</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  Empowering your fitness journey through innovative mobile technology. FitForm is designed for individuals above the age of 18 who are ready to transform their lifestyle through structured exercise routines.
+                </p>
+
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="fitform.html" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+                </div>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="images/Group 1.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">TypingClub</h3>
+                <!-- Add small description of your project  -->
+
+                <p class="work-text">TypingClub is an educational platform designed to enhance typing skills through an engaging and interactive learning experience.</p>
+                
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="typingclub.html" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="images/prototype3.gif"
+                  alt="portfolio template"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              
+              <p class="contact-text">
+                As a software engineer, I construct web interfaces and design
+                systems with a special love for accessibility and the
+                performance. I tend to code things from scratch and enjoy
+                bringing ideas to life.
+              </p>
+              <p class="contact-text">
+                I'm also an open-source developer, and in my spare time, I do
+                digital art with my iPad Pro.
+              </p>
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/devsyedmohsin" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/syed-mohisn-raza-393177262/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
